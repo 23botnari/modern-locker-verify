@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				fortnite: {
+					blue: '#0d87d4',
+					yellow: '#FFD042',
+					purple: '#8E44F3',
+					black: '#121212',
+					gray: '#2A2A2A'
 				}
 			},
 			borderRadius: {
@@ -70,25 +78,42 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' }
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' }
+				},
+				'pulse-glow': {
+					'0%, 100%': { 
+						opacity: '1',
+						filter: 'brightness(1)' 
 					},
-					to: {
-						height: '0'
+					'50%': { 
+						opacity: '0.8',
+						filter: 'brightness(1.2)' 
 					}
+				},
+				'spin-slow': {
+					from: { transform: 'rotate(0deg)' },
+					to: { transform: 'rotate(360deg)' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-glow': 'pulse-glow 2s infinite',
+				'spin-slow': 'spin-slow 8s linear infinite',
+				'float': 'float 3s ease-in-out infinite'
+			},
+			backgroundImage: {
+				'fortnite-gradient': 'linear-gradient(180deg, rgba(14, 16, 34, 0.95) 0%, rgba(9, 32, 63, 0.95) 100%)',
+				'vbucks-card': 'linear-gradient(135deg, rgba(13, 135, 212, 0.8) 0%, rgba(142, 68, 243, 0.8) 100%)',
 			}
 		}
 	},
