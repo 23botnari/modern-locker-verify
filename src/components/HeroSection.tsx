@@ -11,7 +11,7 @@ const HeroSection = ({ onStart }: HeroSectionProps) => {
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="public/photos/0b42301d-fbc5-43d9-bc63-b6b30fee47d7.png"
+          src="/photos/0b42301d-fbc5-43d9-bc63-b6b30fee47d7.png"
           alt="Fortnite Battle Royale"
           className="w-full h-full object-cover opacity-70"
         />
@@ -55,7 +55,7 @@ const HeroSection = ({ onStart }: HeroSectionProps) => {
                 transition={{ duration: 4, repeat: Infinity }}
               ></motion.div>
               <img
-                src="public/photos/28442a6c-12eb-49f2-86b9-fecceee8f2aa.png"
+                src="/photos/28442a6c-12eb-49f2-86b9-fecceee8f2aa.png"
                 alt="V-Bucks"
                 className="w-48 h-48 md:w-64 md:h-64 object-contain relative z-10"
               />
