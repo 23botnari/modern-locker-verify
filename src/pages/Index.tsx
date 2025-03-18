@@ -48,17 +48,17 @@ const Index = () => {
           <VBucksCard 
             amount={5000}
             popular={false}
-            image="public/lovable-uploads/e5d97a8f-d112-4cde-93f3-47efa31cbfe5.png"
+            image="public/photos/e5d97a8f-d112-4cde-93f3-47efa31cbfe5.png"
           />
           <VBucksCard 
             amount={13500}
             popular={true}
-            image="public/lovable-uploads/28442a6c-12eb-49f2-86b9-fecceee8f2aa.png"
+            image="public/photos/28442a6c-12eb-49f2-86b9-fecceee8f2aa.png"
           />
           <VBucksCard 
             amount={1000}
             popular={false}
-            image="public/lovable-uploads/7fc7f61c-c7c5-48a0-9b21-13208e972c92.png"
+            image="public/photos/7fc7f61c-c7c5-48a0-9b21-13208e972c92.png"
           />
         </motion.div>
       </section>
@@ -99,7 +99,7 @@ const Index = () => {
             <div className="flex-1 bg-fortnite-gray/30 p-4 rounded-lg">
               <div className="flex items-center gap-2 mb-3">
                 <img 
-                  src="public/lovable-uploads/9412ada4-d672-4c84-86c2-310031f45228.png" 
+                  src="public/photos/9412ada4-d672-4c84-86c2-310031f45228.png" 
                   alt="Fortnite" 
                   className="w-12 h-12 rounded-lg"
                 />
