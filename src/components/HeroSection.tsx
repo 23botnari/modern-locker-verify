@@ -55,7 +55,7 @@ const HeroSection = ({ onStart }: HeroSectionProps) => {
                 transition={{ duration: 4, repeat: Infinity }}
               ></motion.div>
               <img
-                src="public/lovable-uploads/db7a7d39-3733-4f08-a030-a1a0e1717205.png"
+                src="public/lovable-uploads/28442a6c-12eb-49f2-86b9-fecceee8f2aa.png"
                 alt="V-Bucks"
                 className="w-48 h-48 md:w-64 md:h-64 object-contain relative z-10"
               />

@@ -48,17 +48,17 @@ const Index = () => {
           <VBucksCard 
             amount={5000}
             popular={false}
-            image="public/lovable-uploads/db7a7d39-3733-4f08-a030-a1a0e1717205.png"
+            image="public/lovable-uploads/e5d97a8f-d112-4cde-93f3-47efa31cbfe5.png"
           />
           <VBucksCard 
             amount={13500}
             popular={true}
-            image="public/lovable-uploads/db7a7d39-3733-4f08-a030-a1a0e1717205.png"
+            image="public/lovable-uploads/28442a6c-12eb-49f2-86b9-fecceee8f2aa.png"
           />
           <VBucksCard 
-            amount={27000}
+            amount={1000}
             popular={false}
-            image="public/lovable-uploads/db7a7d39-3733-4f08-a030-a1a0e1717205.png"
+            image="public/lovable-uploads/7fc7f61c-c7c5-48a0-9b21-13208e972c92.png"
           />
         </motion.div>
       </section>
