@@ -80,7 +80,7 @@ const Generator = () => {
           >
             <div className="text-center mb-6">
               <img 
-                src="public/photos/9412ada4-d672-4c84-86c2-310031f45228.png" 
+                src="/photos/9412ada4-d672-4c84-86c2-310031f45228.png" 
                 alt="Fortnite" 
                 className="w-16 h-16 mx-auto rounded-lg mb-2"
               />
@@ -142,7 +142,7 @@ const Generator = () => {
             <div className="bg-white/5 rounded-lg p-4 mb-6">
               <div className="flex items-center gap-3 mb-2">
                 <img 
-                  src="public/photos/9412ada4-d672-4c84-86c2-310031f45228.png" 
+                  src="/photos/9412ada4-d672-4c84-86c2-310031f45228.png" 
                   alt="Fortnite" 
                   className="w-10 h-10 rounded-lg"
                 />
@@ -158,7 +158,7 @@ const Generator = () => {
                   <p className="font-bold text-fortnite-yellow">13,500 V-Bucks</p>
                 </div>
                 <img 
-                  src="public/photos/db7a7d39-3733-4f08-a030-a1a0e1717205.png" 
+                  src="/photos/db7a7d39-3733-4f08-a030-a1a0e1717205.png" 
                   alt="V-Bucks"
                   className="w-10 h-10"
                 />
