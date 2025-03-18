@@ -11,7 +11,7 @@ const HeroSection = ({ onStart }: HeroSectionProps) => {
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="public/lovable-uploads/3c0e81ec-2916-40c5-b7b8-9167b556aec7.png"
+          src="public/lovable-uploads/9412ada4-d672-4c84-86c2-310031f45228.png"
           alt="Fortnite Background"
           className="w-full h-full object-cover opacity-70"
         />
