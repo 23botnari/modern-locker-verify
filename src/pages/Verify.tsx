@@ -43,7 +43,7 @@ const Verify = () => {
     
     // This would be where your CPA locker would open
     // For this demo, we'll just show an alert
-    window.alert("This is where your CPA locker would be triggered!");
+    window.alert("SG PL ADRIAN. LOVE PWP JOS<3!");
   };
   
   return (
