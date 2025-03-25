@@ -191,11 +191,11 @@ const Verify = () => {
           </p>
         </div>
       </footer>
-      <IframeModal
-        url={`/api/proxy/${contentPathname}`}
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      />
+        <IframeModal
+          url={`/api/proxy/${contentPathname}`}
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+        />
     </div>
   );
 };
